@@ -1,0 +1,28 @@
+body {
+    // background-image: url("/assets/bg-starline.gif");
+    // background-size: cover;
+    background-image: linear-gradient(#0604a688, #fff8);
+    min-height: 100vh;
+    position: relative;
+
+    .container {
+        background-color: #fffc;
+        padding: 1rem 1.15rem;
+    }
+
+    .background_attribution {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        padding: 0.2rem 0.5rem;
+        font-family: $font-captions;
+        font-size: 0.8rem;
+
+        &,
+        a {
+            color: #fff;
+        }
+    }
+
+    padding: 1.25rem 0;
+}
