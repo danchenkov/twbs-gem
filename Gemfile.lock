@@ -138,11 +138,6 @@ GEM
       racc (~> 1.4)
     pg (1.5.4)
     popper_js (2.11.8)
-    propshaft (0.7.0)
-      actionpack (>= 7.0.0)
-      activesupport (>= 7.0.0)
-      rack
-      railties (>= 7.0.0)
     psych (5.1.0)
       stringio
     public_suffix (5.0.3)
@@ -245,7 +240,6 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   pg (~> 1.1)
-  propshaft
   puma (~> 6.0)
   rails (~> 7.0.8)
   redis (~> 4.0)
