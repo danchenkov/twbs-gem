@@ -1,9 +1,17 @@
 <div class="container">
-  <h1>About#index</h1>
-  <p>Find me in app/views/about/index.html.erb</p>
+  <h1>Home page</h1>
+  <p>Find me in app/views/home.html.erb</p>
   <p>This is a regular paragraph.</p>
   <p class="special">This is a special note to test styles.</p>
   <p>This is a regular paragraph.</p>
+
+  <h3>This is stimulus code: calling hello controller</h3>
+
+  <div data-controller="hello">
+    <input data-hello-target="name" type="text">
+    <button class="btn" data-action="click->hello#click">Connect</button>
+    <div data-hello-target="message">sss</div>
+  </div>
 
   <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
 </div>

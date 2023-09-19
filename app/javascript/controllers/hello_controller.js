@@ -1,7 +1,13 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
+
+  static targets = ["message", "name"]
+
   connect() {
-    this.element.textContent = "Hello World!"
+    console.log("Connect")
+  }
+  click() {
+    this.messageTarget.textContent = "Hello, " + (this.nameTarget.value || "world")
   }
 }
