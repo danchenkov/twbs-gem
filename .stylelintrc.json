@@ -20,7 +20,7 @@
         "color-hex-length": "short",
         "comment-whitespace-inside": "always",
         "function-url-quotes": "never",
-        "indentation": 4,
+        "indentation": 2,
         "no-duplicate-selectors": true,
         "number-leading-zero": null,
         "order/order": "selectorOrdering",
