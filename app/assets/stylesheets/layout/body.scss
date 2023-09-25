@@ -1,26 +1,25 @@
 body {
-  background-image: linear-gradient(#06e6f644, #fff0);
+  position: relative;
   // background-image: url("bg-starline.gif"); // We are using Propshaft
   // background-image: image_url("bg-starline.gif"); // We are using Sprockets
-  // background-size: cover;
+  background-image: linear-gradient(#06e6f644, #fff0);
   background-repeat: no-repeat;
-  position: relative;
+  background-size: cover;
 }
 
 .container {
-  background-color: #fffc;
   margin: 2rem auto;
   padding: 1rem 1.15rem;
+  background-color: #fffc;
 }
 
 .listing {
+  margin-bottom: 1rem;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid #bbb;
-  margin-bottom: 1rem;
 }
 
 form {
-
   input[type="text"],
   input[type="password"],
   input[type="number"],
@@ -36,7 +35,7 @@ form {
   color: $body-text-color;
 
   &:hover {
-    color: lighten($color: $body-text-color, $amount: 15%);
+    color: color.adjust($color: $body-text-color, $lightness: 15%);
 
     h2 {
       text-decoration: underline
@@ -46,7 +45,6 @@ form {
   &:not(:last-of-type) {
     margin-bottom: 1.5rem;
   }
-
   // >a {
   //   position: absolute;
   //   width: 100%;
@@ -54,6 +52,4 @@ form {
   // }
 }
 
-a {
-  text-decoration: none;
-}
+a { text-decoration: none; }
